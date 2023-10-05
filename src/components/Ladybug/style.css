@@ -1,0 +1,31 @@
+.ladybug {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(./img/ladybug.png);
+  background-size: contain;
+}
+
+.ladybug--up,
+.ladybug--left,
+.ladybug--right,
+.ladybug--down {
+  transition: transform 300ms;
+}
+
+.ladybug--up {
+  transform: rotate(0deg);  
+}
+
+.ladybug--left {
+  transform: rotate(-90deg);
+}
+
+.ladybug--right {
+  transform: rotate(90deg);
+}
+
+.ladybug--down {
+  transform: rotate(180deg);
+}
+
